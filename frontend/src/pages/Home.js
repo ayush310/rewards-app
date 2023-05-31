@@ -20,7 +20,7 @@ function Home() {
     const userInfo = JSON.parse(localStorage.getItem("userInfo"));
 
     if (userInfo) {
-      history.push("/chats");
+      history.push("/dashboard");
     }
   }, [history]);
 
